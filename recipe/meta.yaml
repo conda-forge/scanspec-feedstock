@@ -1,5 +1,5 @@
 {% set name = "scanspec" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scanspec-{{ version }}.tar.gz
-  sha256: 5aa03ca6fedec8a4b86cc0773d50e880f2b5b8b6d11cec24c4ceeed26e8e667d
+  sha256: af50a6d7eb3434c302a5f1dce5de58c7028bc4273adaaa351c916fdd07a498c3
 
 build:
   entry_points:
